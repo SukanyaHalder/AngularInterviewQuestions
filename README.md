@@ -138,3 +138,51 @@ Angular Interview Questions
 <p>
   <br>
 </p>
+
+1	What is Angular Framework?
+	- Angular is a typescript based development platform to build efficient and sophisticated single-page apps
+	
+2	What is the difference between AngularJS and Angular?
+	- Angular has a CLI
+	- It is written in TypeScript
+	- AngularJS was MVC based where as Angular is Web-Components architecture of development based
+
+What were the drawbacks of AngularJS?
+
+What are the advantages of Angular over AngularJS?
+
+What is Web-Components architecture?
+ - reusable custom elements — with their functionality encapsulated away from the rest of your code
+ - the application is divided into components
+ - these components contain reusable UI contents that are dynamic in nature
+ - Mainly these are implemented using custom elements, Shadow Doms, ES Modules and HTML Templates
+ - Features of web component
+		A web component must be a custom HTML element.
+		A web component should contain all the logic to function itself.
+		A web component must not affect other components and other parts of the application unintentionally.
+		A web component must encapsulate itself to avoid any collisions between outside JavaScript or CSS.
+		Multiple instances of the same web component must not interfere with each other.
+
+Shadow-DOM?
+- Shadow DOM allows hidden DOM trees to be attached to elements in the regular DOM tree — this shadow DOM tree starts with a shadow root, underneath which can be attached to any elements you want, in the same way as the normal DOM.
+	Shadow host: The regular DOM node that the shadow DOM is attached to.
+	Shadow tree: The DOM tree inside the shadow DOM.
+	Shadow boundary: the place where the shadow DOM ends, and the regular DOM begins.
+	Shadow root: The root node of the shadow tree.
+	
+Advantages of Angular 2+?
+- CROSS PLATFORM - Progressive Web Apps, Native, Desktop
+- Robust - 
+- PRODUCTIVITY
+	
+Ng-Modules
+	- NgModules configures injector and compiler
+	- It is a collection of related code -  components, directives, and pipes into cohesive blocks of functionality
+	- Each such collection/module works on a focussed area
+	- It identifies the public components, directives, and pipes so that they could be accessed from outside
+	- It registers service providers to be injected to components
+	- Angular libraries are NgModules
+	- Some in-built angular modules are FormsModule, HttpClientModule, and RouterModule
+	- Some third party angular modules are  Material Design, Ionic
+	
+	
